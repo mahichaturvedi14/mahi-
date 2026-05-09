@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int p1,p2,p,n1,n2,r1,r2;
+	
+	printf("number of apples:");
+	scanf("%d",&n1);
+	printf(" apple rate:");
+	scanf("%d",&r1);
+	printf("number of oranges:");
+	scanf("%d",&n2);
+	printf("rate of oranges:");
+	scanf("%d",&r2);
+	p1=n1*r1;
+	p2=n2*r2;
+	p=p1+p2;
+	printf("price of apple =%d",p1);
+	printf("price of orange=%d",p2);
+	
+    printf("total cost=%d",p);
+	getch();
+	return 0;
+}
+	
