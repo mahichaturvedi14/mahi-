@@ -1,0 +1,56 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main () {
+	
+	int candy_alex;
+	int candy_ben;
+	int candy_chris;
+	int min;
+	int max;
+	
+	printf("the number of candies collected by Alex = ");
+	scanf("%d", &candy_alex);
+	
+		printf("the number of candies collected by Ben = ");
+    	scanf("%d", &candy_ben);
+	
+		printf("the number of candies collected by Chris = ");
+    	scanf("%d", &candy_chris);
+	
+	if ((candy_alex>candy_ben) && (candy_alex>candy_chris)) {
+		max=candy_alex;
+		printf("Alex has the maximum number of candies.\n");
+		
+		} else if (candy_ben>candy_chris)
+		
+		{ max=candy_ben;
+			 printf("Ben has the maximum number of
+			  candies.\n");
+		
+		
+		} else { max=; candy_chris
+			printf("chris ha
+			
+				if ((candy_alex<candy_ben) && (candy_alex<candy_chris)) {
+					min=candy_alex;
+					printf("Alex has the minimum number of candies.\n");
+					
+				} else if (candy_ben<candy_chris){
+					min=candy_ben;
+					printf("Ben has the minimum number of candies.\n");}
+					 else {min=candy_chris;
+							 printf("chris has minimum number of candies.\n");}
+							 
+		if(max%2==0)
+		{printf("the kid with most number of candies have even number of pieces.\n");}
+		else{printf("the kid with most number of candies have odd number of pieces.\n");}
+		
+		if(min%2==0)
+		{printf("the kid with least number of candies have even number of pieces.\n");}
+		else{printf("the kid with least number of candies have odd number of pieces.\n");}
+getch();
+return 0;
+}
+		
+					 
