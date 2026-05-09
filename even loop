@@ -1,0 +1,27 @@
+//Print even numbers between 1 and 100.
+
+#include <stdio.h>
+#include <conio.h>
+
+int main(){
+	 
+	/*for(int i=2;i <= 100;i += 2)
+	{ 
+	printf("%d \n",i);
+		}*/
+	
+	
+		/*int i=2;
+		while(i<=100){
+			printf("%d \n", i);
+			i=i+2;
+		}*/
+		
+		int i=2;
+		do{
+			printf("%d \n",i);
+			i=i+2;
+		}	while(i<=100);
+		getch();
+		return 0;
+}
