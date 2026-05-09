@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+	int a,b;
+		printf("enter first number:");
+		scanf("%d", &a);
+		
+		printf("enter second number:");
+		scanf("%d", &b);
+		
+		if(a>b){
+			printf("a is greater than b");
+			
+		}else if (b>a){
+			printf("b is greater than a");
+			
+		}else {
+		
+		printf("both a and b are equal");}
+		getch();
+		return 0;
+	}
+		
