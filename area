@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int diameter;
+	float area;
+	
+
+	printf("enter the diameter=");
+	scanf("%d",&diameter);
+	
+	area=3.14*(diameter/2)*(diameter/2);
+	printf("the area of university is=%.2f",area);
+	getch();
+	return 0;
+	
+}
